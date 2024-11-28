@@ -337,3 +337,19 @@ body {
     transform: scale(1);
   }
 }
+
+@media screen and (max-width: 768px) {
+    #container {
+      transform: scale(1.5); /* 20% 더 크게 */
+      transform-origin: center; /* 확대의 중심을 설정 */
+      width: auto; /* 크기를 자동으로 조정 */
+      height: auto; /* 크기를 자동으로 조정 */
+      margin: 0 auto; /* 화면 가운데 정렬 */
+    }
+  
+    body {
+      padding: 0;
+      margin: 0;
+      overflow-x: hidden; /* 가로 스크롤 방지 */
+    }
+  }
